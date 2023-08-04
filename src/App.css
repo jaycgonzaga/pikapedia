@@ -3,3 +3,69 @@
   padding: 0;
   scroll-behavior: smooth;
 }
+
+.icon {
+ color: black;
+ height: 30px;
+ width: 30px;
+}
+
+.pokesprite {
+  width: 100px;
+}
+
+.pokecard-grass {
+  background-color: #48D0B0;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-water {
+  background-color: #76BDFE;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+.pokecard-fire {
+  background-color: #FB6C6C;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-electric {
+  background-color: #ffd86f;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+
+.typebox-grass {
+  background-color: #61E1C9;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.typebox-water {
+  background-color: #8FD1FE ;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.typebox-fire {
+  background-color: #F88C8C ;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.typebox-electric {
+  background-color: #ffe580 ;
+  border-radius: 20px;
+  border-color: white;
+}
+
+
+
+
