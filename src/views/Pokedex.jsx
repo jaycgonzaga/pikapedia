@@ -1,15 +1,15 @@
 import {React, useEffect, useState} from 'react'
 import Pokemon from '../lib/pokemon'
 import PokeCard from '../components/pokecard'
-import axios from 'axios'
+
 
 export default function Pokedex() {
 
   const [pokemonData,setPokemonData] = useState([])
   const [pokeDetails,setPokeDetails] = useState([])
   const [showPokemon,setShowPokemon] = useState([])
-  const [pagStart, setPagStart] = useState(0)
-  const [pagEnd, setPagEnd] = useState(19)
+  const [pagStart, setPagStart] = useState(200)
+  const [pagEnd, setPagEnd] = useState(249)
   const [pokedex, setPokedex] = useState([])
 
   useEffect(() => {async function promise(){const table = await Pokemon.getAllPokemon() 
@@ -21,7 +21,7 @@ export default function Pokedex() {
 
   return(
     <section id='Pokedex'>
-      <div className='pokeContainer grid grid-cols-5'>
+      <div className='pokeContainer justify-items-center p-5 inline-grid 2xl:grid-cols-10 lg:grid-cols-5 sm:grid-cols-3 gap-5'>
          {pokedex.length > 0 && pokedex.map((x) => (x))}
       </div>
     </section>

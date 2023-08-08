@@ -9,12 +9,6 @@ export default function Pokecard(pokemon) {
   const [type1,setType1] = useState(null)
   const [pokeImage,setPokeImage] = useState(null)
 
-  const colorTypes = {
-    grass: 'pokecard-grass',
-    water: 'pokecard-water',
-    fire: 'pokecard-fire',
-    electric: 'pokecard-electric'
-  }
 
   const pokeDetails = async function promisedDetails(){const details = await Pokemon.getPokeDetails(pokemon.id)
     setPokeImage(details.sprites.other['official-artwork'].front_default)
@@ -24,7 +18,7 @@ export default function Pokecard(pokemon) {
 
   return (
     <>
-      <div className={`h-56 w-48 mx-center ${colorTypes[type0]} text-center text-white py-5`}>
+      <div className={`h-56 w-48 mx-center pokecard-${type0} text-center text-white py-5`}>
         <h1 className='text-lg' >{pokemon.id < 10 ? `0${pokemon.id}`: pokemon.id}</h1>
         <img className='pokesprite mx-auto' src={pokeImage} alt="sprite"/>
         <h1 className='text-xl'>{pokemon.name}</h1>

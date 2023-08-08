@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Wendy+One&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
@@ -14,6 +17,9 @@
   width: 100px;
 }
 
+.navbar-text-logo {
+  font-family: 'Wendy One', sans-serif;
+}
 .pokecard-grass {
   background-color: #48D0B0;
   border-radius: 20px;
@@ -41,6 +47,96 @@
   border: 2px solid white; 
 }
 
+.pokecard-bug {
+  background-color: #48d06a;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-normal {
+  background-color: #a7a693;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-poison {
+  background-color: #ce4ee8;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-fairy {
+  background-color: #ee87ab;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-ground {
+  background-color: #e1aa33;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-psychic {
+  background-color: #F95587;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-ghost {
+  background-color: #735797;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-rock {
+  background-color: #B6A136;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-fighting {
+  background-color: #C22E28;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-ice {
+  background-color: #96D9D6;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-dragon {
+  background-color: #6F35FC;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-dark {
+  background-color: #7b6454;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
+
+.pokecard-steel {
+  background-color: #B7B7CE;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.3rem 0.5rem rgba(1, 1, 1, 0.25));
+  border: 2px solid white; 
+}
 
 .typebox-grass {
   background-color: #61E1C9;
@@ -66,6 +162,80 @@
   border-color: white;
 }
 
+.typebox-bug {
+  background-color: #61e17b;
+  border-radius: 20px;
+  border-color: white;
+}
 
+.typebox-normal {
+  background-color: #b7b6ad;
+  border-radius: 20px;
+  border-color: white;
+}
 
+.typebox-poison {
+  background-color: #d272e5;
+  border-radius: 20px;
+  border-color: white;
+}
 
+.typebox-fairy {
+  background-color: #f49fbc;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.typebox-ground {
+  background-color: #f5c04f;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.typebox-psychic {
+  background-color: #f47a9e;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.typebox-ghost {
+  background-color: #7f61a7;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.typebox-rock {
+  background-color: #ccb95c;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.typebox-fighting {
+  background-color: #d5524d;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.typebox-ice {
+  background-color: #a8e7e3;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.typebox-dragon {
+  background-color: #8559f5;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.typebox-dark {
+  background-color: #8c786a;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.typebox-steel {
+  background-color: #d1d1eb;
+  border-radius: 20px;
+  border-color: white;
+}
