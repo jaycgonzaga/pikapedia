@@ -12,8 +12,8 @@ export default function Navbar() {
         {name:"PokeDex",link:"/"},
         {name:"Regions",link:"/"},
         {name:"Forums",link:"/"},
-      ];
-      let [open,setOpen]=useState(false);
+      ]
+    let [open,setOpen]=useState(false)
     
     useEffect(() => {
         console.log(open)
